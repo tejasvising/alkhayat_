@@ -9,151 +9,154 @@ class Services extends StatelessWidget {
       child: SizedBox(
         height: 745,
         width: 3000,
-        child: Padding(
-          padding: const EdgeInsets.all(32.0),
-          child: Stack(
-            children: [
-              Align(
-                alignment: Alignment(0, -1),
-                child: Text(
-                  "OUR SERVICES",
-                  style: TextStyle(
-                    fontSize: 60,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-              Align(
-                alignment: Alignment(-0.85, -0.4),
-                child: Image.asset(
-                  'assets/images/measurement.png',
-                  height: 250,
-                  width: 250,
-                ),
-              ),
-              Align(
-                alignment: Alignment(-0.88, 0.25),
-                child: Text(
-                  "Measurement",
-                  style: TextStyle(
-                    fontSize: 45,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-              Align(
-                alignment: Alignment(-0.88, 0.65),
-                child: SizedBox(
-                  width: 300,
+        child: Container(
+          color: Colors.white,
+          child: Padding(
+            padding: const EdgeInsets.all(32.0),
+            child: Stack(
+              children: [
+                Align(
+                  alignment: Alignment(0, -1),
                   child: Text(
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-                    textAlign: TextAlign.center,
+                    "OUR SERVICES",
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 40,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment(-0.3, -0.4),
-                child: Image.asset(
-                  'assets/images/design.png',
-                  height: 250,
-                  width: 250,
-                ),
-              ),
-              Align(
-                alignment: Alignment(-0.3, 0.25),
-                child: Text(
-                  "Design",
-                  style: TextStyle(
-                    fontSize: 45,
-                    fontWeight: FontWeight.bold,
+                Align(
+                  alignment: Alignment(-0.85, -0.4),
+                  child: Image.asset(
+                    'assets/images/measurement.png',
+                    height: 250,
+                    width: 250,
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment(-0.28, 0.65),
-                child: SizedBox(
-                  width: 300,
+                Align(
+                  alignment: Alignment(-0.83, 0.25),
                   child: Text(
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-                    textAlign: TextAlign.center,
+                    "Measurement",
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 35,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment(0.27, -0.4),
-                child: Image.asset(
-                  'assets/images/shop.png',
-                  height: 250,
-                  width: 250,
-                ),
-              ),
-              Align(
-                alignment: Alignment(0.26, 0.25),
-                child: Text(
-                  "Shop",
-                  style: TextStyle(
-                    fontSize: 45,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-              Align(
-                alignment: Alignment(0.32, 0.65),
-                child: SizedBox(
-                  width: 300,
-                  child: Text(
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontSize: 20,
-                    ),
-                  ),
-                ),
-              ),
-              Align(
-                alignment: Alignment(0.85, -0.4),
-                child: Image.asset(
-                  'assets/images/pickup.png',
-                  height: 250,
-                  width: 250,
-                ),
-              ),
-              Align(
-                alignment: Alignment(0.97, 0.25),
-                child: SizedBox(
-                  width: 280,
-                  child: Align(
-                    alignment: Alignment(1, 0.35),
+                Align(
+                  alignment: Alignment(-0.88, 0.65),
+                  child: SizedBox(
+                    width: 300,
                     child: Text(
-                      "Pickup & Delivery",
+                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+                      textAlign: TextAlign.center,
                       style: TextStyle(
-                        fontSize: 42,
-                        fontWeight: FontWeight.bold,
+                        fontSize: 20,
                       ),
                     ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment(0.9, 0.65),
-                child: SizedBox(
-                  width: 300,
+                Align(
+                  alignment: Alignment(-0.3, -0.4),
+                  child: Image.asset(
+                    'assets/images/design.png',
+                    height: 250,
+                    width: 250,
+                  ),
+                ),
+                Align(
+                  alignment: Alignment(-0.26, 0.25),
                   child: Text(
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-                    textAlign: TextAlign.center,
+                    "Design",
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 35,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
-              ),
-            ],
+                Align(
+                  alignment: Alignment(-0.28, 0.65),
+                  child: SizedBox(
+                    width: 300,
+                    child: Text(
+                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 20,
+                      ),
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment(0.27, -0.4),
+                  child: Image.asset(
+                    'assets/images/shop.png',
+                    height: 250,
+                    width: 250,
+                  ),
+                ),
+                Align(
+                  alignment: Alignment(0.25, 0.25),
+                  child: Text(
+                    "Shop",
+                    style: TextStyle(
+                      fontSize: 35,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment(0.32, 0.65),
+                  child: SizedBox(
+                    width: 300,
+                    child: Text(
+                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 20,
+                      ),
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment(0.83, -0.4),
+                  child: Image.asset(
+                    'assets/images/pickup.png',
+                    height: 250,
+                    width: 250,
+                  ),
+                ),
+                Align(
+                  alignment: Alignment(0.85, 0.21),
+                  child: SizedBox(
+                    width: 280,
+                    child: Align(
+                      alignment: Alignment(1, 0.25),
+                      child: Text(
+                        "Pickup & Delivery",
+                        style: TextStyle(
+                          fontSize: 32,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment(0.9, 0.65),
+                  child: SizedBox(
+                    width: 300,
+                    child: Text(
+                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 20,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),

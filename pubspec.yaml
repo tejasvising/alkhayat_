@@ -28,7 +28,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   google_nav_bar: ^5.0.6
-  carousel_slider: ^3.0.0
+  carousel_slider: ^4.1.1
   animated_text_kit: ^4.2.1
   animated_button: ^0.2.0
   firebase_core: ^1.14.0
@@ -79,6 +79,17 @@ flutter:
      - assets/images/pickup.png
      - assets/images/design.png
      - assets/images/shop.png
+     - assets/images/facebook.png
+     - assets/images/youtube_icon.png
+     - assets/images/instagram.png
+     - assets/images/twitter.png
+     - assets/images/linkedin.png
+     - assets/images/location.png
+     - assets/images/call.png
+     - assets/images/mail.png
+     - assets/images/paypal.png
+     - assets/images/mastercard.png
+     - assets/images/visa.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

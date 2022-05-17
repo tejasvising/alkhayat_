@@ -22,7 +22,7 @@ class Discover extends StatelessWidget {
         ),
         Center(
           child: Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.symmetric(vertical: 60.0),
             child: Text("Discover FABRICS Collection",
                 style: TextStyle(
                   fontSize: 50.0,
@@ -33,7 +33,7 @@ class Discover extends StatelessWidget {
         ),
         Center(
           child: Padding(
-            padding: const EdgeInsets.all(132.0),
+            padding: const EdgeInsets.symmetric(vertical: 160.0),
             child: Text(
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis",
                 style: TextStyle(
@@ -44,7 +44,7 @@ class Discover extends StatelessWidget {
         ),
         Center(
           child: Padding(
-            padding: const EdgeInsets.all(200.0),
+            padding: const EdgeInsets.all(230.0),
             child: Text('____________',
                 style: TextStyle(
                   fontSize: 30.0,
@@ -55,7 +55,7 @@ class Discover extends StatelessWidget {
         ),
         Center(
           child: Padding(
-            padding: const EdgeInsets.all(300.0),
+            padding: const EdgeInsets.all(330.0),
             child: Container(
               // margin:
               //     const EdgeInsets.symmetric(vertical: 8.0, horizontal: 125.0),
@@ -83,7 +83,11 @@ class Discover extends StatelessWidget {
             ),
           ),
         ),
-        Align(alignment: Alignment(0, 1), child: Carousel()),
+        Center(
+            child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 450.0),
+          child: Carousel(),
+        )),
       ],
     );
   }

@@ -27,7 +27,7 @@ class Featured extends StatelessWidget {
               alignment: Alignment(0, -0.85),
               child: Text("FEATURED TAILORS",
                   style: TextStyle(
-                    fontSize: 40.0,
+                    fontSize: 35.0,
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
                     decoration: TextDecoration.underline,
@@ -46,21 +46,21 @@ class Featured extends StatelessWidget {
               alignment: Alignment(0.4, -0.3),
               child: Text("Faiza",
                   style: TextStyle(
-                      fontSize: 40.0,
+                      fontSize: 35.0,
                       color: Colors.black,
                       fontWeight: FontWeight.bold)),
             ),
             Align(
-              alignment: Alignment(0.58, -0.1),
+              alignment: Alignment(0.55, -0.1),
               child: Text("Fashion Designer",
                   style: TextStyle(
-                    fontSize: 35.0,
+                    fontSize: 30.0,
                     color: Colors.black,
                     //fontWeight: FontWeight.bold
                   )),
             ),
             Align(
-              alignment: Alignment(0.54, 0.1),
+              alignment: Alignment(0.55, 0.1),
               child: RatingBar.builder(
                 initialRating: 4.5,
                 minRating: 1,

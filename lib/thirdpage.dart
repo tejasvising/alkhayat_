@@ -10,6 +10,7 @@ class ThirdPage extends StatelessWidget {
       child: SizedBox(
         height: 800,
         child: Scaffold(
+          backgroundColor: Colors.white,
           appBar: null,
           body: Stack(
             children: [
@@ -17,12 +18,12 @@ class ThirdPage extends StatelessWidget {
                 alignment: Alignment(-1, -1),
                 child: Container(
                   height: 500,
-                  color: Color.fromARGB(255, 244, 201, 145),
+                  color: Color.fromARGB(255, 196, 135, 56),
                   width: 550,
                 ),
               ),
               Align(
-                alignment: Alignment(-0.75, -0.85),
+                alignment: Alignment(-0.75, -0.75),
                 child: Text(
                   "WHY US ?",
                   style: TextStyle(

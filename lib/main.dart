@@ -66,8 +66,8 @@ class _ExampleState extends State<Example> {
               ThirdPage(),
               Services(),
               Types(),
-              //Discover(),
-
+              Discover(),
+              //Carousel(),
               Category(),
               Best(),
               Featured(),
@@ -76,7 +76,6 @@ class _ExampleState extends State<Example> {
               Client(),
               Footer(),
               //  FullscreenSliderDemo(),
-              //   Carousel(),
             ],
           ),
         ),

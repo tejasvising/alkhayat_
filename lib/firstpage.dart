@@ -158,7 +158,7 @@ class FirstPage extends StatelessWidget {
                   child: Text("BOOK APPOINTMENT"),
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(5),
+                      borderRadius: BorderRadius.circular(8),
                       // <-- Radius
                     ),
                     side: BorderSide(
@@ -190,7 +190,7 @@ class FirstPage extends StatelessWidget {
                   child: Text("Upload Measurement"),
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(5),
+                      borderRadius: BorderRadius.circular(8),
                       // <-- Radius
                     ),
                     primary: Color.fromRGBO(236, 154, 44, 2),

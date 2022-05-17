@@ -81,14 +81,14 @@ class _TypesState extends State<Types> {
             //  backgroundImage:Image.asset('assets/images/scissors.png'),
             child: Container(
               // color: Colors.red,
-              height: 700,
-              width: 200,
+              height: 750,
+              width: 400,
               child: Align(
                 alignment: Alignment(-0.2, -0.95),
                 child:
                     // with Material
-                    Image.asset('assets/images/logo.jpg',
-                        height: 700, fit: BoxFit.fill),
+                    Image.asset('assets/images/man.jpg',
+                        height: 750, fit: BoxFit.fill),
                 //: Text(
                 //   "MEN",
                 //   style: TextStyle(
@@ -404,12 +404,15 @@ class _TypesState extends State<Types> {
         ),
 
         Align(
-          alignment: Alignment(-0.3, 0.25),
-          child: Text(
-            "Women",
-            style: TextStyle(
-              fontSize: 45,
-              fontWeight: FontWeight.bold,
+          alignment: Alignment(-0.3, 1),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(vertical: 20.0),
+            child: Text(
+              "WOMEN",
+              style: TextStyle(
+                fontSize: 45,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
         ),

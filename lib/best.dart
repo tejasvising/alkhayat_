@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'carousel.dart';
+
 class Best extends StatelessWidget {
   const Best({Key? key}) : super(key: key);
 
@@ -19,6 +21,10 @@ class Best extends StatelessWidget {
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
                 )),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(200.0),
+            child: Carousel(),
           ),
           Align(
             alignment: Alignment(0, 0.5),

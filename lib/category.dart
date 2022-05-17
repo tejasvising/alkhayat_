@@ -26,16 +26,16 @@ class Category extends StatelessWidget {
               ),
             ),
             Align(
-              alignment: Alignment(-0.8, -0.8),
+              alignment: Alignment(-0.82, -0.8),
               child: Text("New Collection in Fabrics",
                   style: TextStyle(
-                    fontSize: 30.0,
+                    fontSize: 25.0,
                     color: Colors.white,
                     //fontWeight: FontWeight.bold,
                   )),
             ),
             Align(
-              alignment: Alignment(-0.8, -0.6),
+              alignment: Alignment(-0.8, -0.59),
               child: Text("Maybe you've earned it",
                   style: TextStyle(
                     fontSize: 40.0,
@@ -44,7 +44,7 @@ class Category extends StatelessWidget {
                   )),
             ),
             Align(
-              alignment: Alignment(-0.8, -0.4),
+              alignment: Alignment(-0.81, -0.44),
               child: Text("Get 25% off for this item!",
                   style: TextStyle(
                     fontSize: 30.0,
@@ -53,7 +53,7 @@ class Category extends StatelessWidget {
                   )),
             ),
             Align(
-              alignment: Alignment(-0.8, -0.2),
+              alignment: Alignment(-0.83, -0.2),
               child: Container(
                 // margin:
                 //     const EdgeInsets.symmetric(vertical: 8.0, horizontal: 125.0),
@@ -94,16 +94,16 @@ class Category extends StatelessWidget {
               ),
             ),
             Align(
-              alignment: Alignment(-0.8, 0.2),
+              alignment: Alignment(-0.84, 0.25),
               child: Text("New Arrivals",
                   style: TextStyle(
-                    fontSize: 30.0,
+                    fontSize: 25.0,
                     color: Colors.white,
                     //fontWeight: FontWeight.bold,
                   )),
             ),
             Align(
-              alignment: Alignment(-0.8, 0.4),
+              alignment: Alignment(-0.8, 0.46),
               child: Text("Maybe you've earned it",
                   style: TextStyle(
                     fontSize: 40.0,
@@ -112,16 +112,16 @@ class Category extends StatelessWidget {
                   )),
             ),
             Align(
-              alignment: Alignment(-0.8, 0.55),
+              alignment: Alignment(-0.81, 0.6),
               child: Text("Get 25% off for this item!",
                   style: TextStyle(
-                    fontSize: 25.0,
+                    fontSize: 30.0,
                     color: Colors.white,
                     //fontWeight: FontWeight.bold,
                   )),
             ),
             Align(
-              alignment: Alignment(-0.8, 0.8),
+              alignment: Alignment(-0.83, 0.85),
               child: Container(
                 // margin:
                 //     const EdgeInsets.symmetric(vertical: 8.0, horizontal: 125.0),
@@ -162,34 +162,34 @@ class Category extends StatelessWidget {
               ),
             ),
             Align(
-              alignment: Alignment(0.5, -0.7),
+              alignment: Alignment(0.54, -0.6),
               child: Text("Top Sale Fabric",
                   style: TextStyle(
-                    fontSize: 30.0,
+                    fontSize: 40.0,
                     color: Colors.white,
                     //fontWeight: FontWeight.bold,
                   )),
             ),
             Align(
-              alignment: Alignment(0.6, -0.3),
+              alignment: Alignment(0.63, -0.3),
               child: Text("Deal of the day",
                   style: TextStyle(
-                    fontSize: 40.0,
+                    fontSize: 70.0,
                     color: Colors.white,
                     //fontWeight: FontWeight.bold,
                   )),
             ),
             Align(
-              alignment: Alignment(0.5, -0.1),
+              alignment: Alignment(0.48, 0.1),
               child: Text("35%",
                   style: TextStyle(
-                    fontSize: 40.0,
+                    fontSize: 70.0,
                     color: Colors.white,
                     //fontWeight: FontWeight.bold,
                   )),
             ),
             Align(
-              alignment: Alignment(0.6, 0.5),
+              alignment: Alignment(0.55, 0.5),
               child: Text("Off for all items!",
                   style: TextStyle(
                     fontSize: 40.0,
