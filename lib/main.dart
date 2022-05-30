@@ -30,7 +30,7 @@ void main() {
         fontFamily: 'Philosopher',
       ),
       home: Example(),
-
+      debugShowCheckedModeBanner: false,
       //  title: 'Flutter Demo',
 
       //   child: Example()
